@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: mysql-pvc
   annotations:
-    snapshot.alpha.kubernetes.io/snapshot: mysql-snapshot
+    snapshot.alpha.kubernetes.io/snapshot: <mysql-snapshot名>
 spec:
   accessModes:
      - ReadWriteOnce
