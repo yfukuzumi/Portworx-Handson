@@ -39,8 +39,8 @@ vpc:
   subnets:
     public:
       ap-northeast-1c:
-          id: "<subnet id>"
+        id: "<subnet id>"
       ap-northeast-1a:
-          id: "<subnet id>"
+        id: "<subnet id>"
       ap-northeast-1d:
-          id: "<subnet id>"
+        id: "<subnet id>"
