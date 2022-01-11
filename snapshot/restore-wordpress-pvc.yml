@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: wp-pvc
   annotations:
-    snapshot.alpha.kubernetes.io/snapshot: Wordpress用Snapshot
+    snapshot.alpha.kubernetes.io/snapshot: #メモしたWordpress用のVolume Snapshot Nameを入力
 spec:
   accessModes:
      - ReadWriteMany
