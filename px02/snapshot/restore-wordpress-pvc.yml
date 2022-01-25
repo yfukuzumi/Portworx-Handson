@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: wp-pvc
+  annotations:
+    snapshot.alpha.kubernetes.io/snapshot: #メモしたWordpress用のVolume Snapshot Nameを入力
+spec:
+  accessModes:
+     - ReadWriteMany
+  storageClassName: stork-snapshot-sc
+  resources:
+    requests:
+      storage: 1Gi
